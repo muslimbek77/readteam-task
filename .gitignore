@@ -1,0 +1,39 @@
+# Python cache va temporary fayllar
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*
+*.env
+
+# Telegram session fayllari
+*.session
+*.session-journal
+
+# IDE fayllar
+.vscode/
+.idea/
+*.swp
+
+# OS tomonidan yaratilgan fayllar
+.DS_Store
+Thumbs.db
+
+# Log va natija fayllar
+*.log
+*.out
+*.tmp
+result.json
+
+# PyInstaller va build chiqishlari
+build/
+dist/
+*.spec
+
+# Jupyter yoki boshqa interaktiv fayllar
+.ipynb_checkpoints/
