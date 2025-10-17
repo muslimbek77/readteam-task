@@ -11,11 +11,12 @@ Skript har bir post bo‘yicha nechta xabar yozilganini va nechta foydalanuvchi 
 - Natijani **JSON fayl** ko‘rinishida saqlash
 
 ## ⚙️ O‘rnatish
-```bash
+bash
 git clone https://github.com/muslimbek77/redteam-task.git
 cd redteam-task
 python -m venv venv
 source venv/bin/activate  # Linux/Mac uchun
+venv\Scripts\activate  # Windows uchun
 pip install -r requirements.txt
 ````
 
